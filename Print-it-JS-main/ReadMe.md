@@ -1,3 +1,3 @@
 # Print-It WebSite v.1
 
-test
+premiers pas sur JavaScript for Open classroom JS formation
