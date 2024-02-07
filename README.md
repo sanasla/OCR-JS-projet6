@@ -1,2 +1,3 @@
 # OCR-JS-projet6
-premiers pas sur java script
+
+premiers pas sur JavaScript for Open classroom JS formation
