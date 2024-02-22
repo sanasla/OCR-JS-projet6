@@ -24,7 +24,6 @@ console.log("longueur du tableau : " + slides.length);
 // Création variable bullet contient le div qui est en html(la rattacher avec javascript)
 let bullet = `<div class="dot"></div>`;
 
-//get the css of element
 let dots = document.querySelector(".dots");
 //rattacher les bullets au slides
 dots.innerHTML = `${bullet.repeat(slides.length)}`;
@@ -34,8 +33,9 @@ dots.firstChild.className = "dot dot_selected";
 // // fonction qui permet de gérer les dot
 let bulletSelected = 0;
 function ChangeDot(sens) {
+  bulletPrecedent = bulletSelected;
   bulletSelected = bulletSelected + sens;
-  bulletPrecedent = bulletSelected - sens;
+  //bulletPrecedent = bulletSelected - sens;
 
   if (bulletSelected > dots.childNodes.length - 1) {
     bulletSelected = 0;
