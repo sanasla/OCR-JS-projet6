@@ -49,7 +49,7 @@ function ChangeDot(sens) {
   dots.childNodes[bulletSelected].className = "dot dot_selected";
 }
 
-// memorise la slide en cours
+// memorise la slide
 let numero = 0;
 function ChangeSlide(sens) {
   // Lors du clique la variable numero et incrementer de 1 ou décrementer de -1
